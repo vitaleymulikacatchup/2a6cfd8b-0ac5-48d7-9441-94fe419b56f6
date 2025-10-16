@@ -7,7 +7,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 
-const assetMap = /* provided JSON array */;
+const assetMap = [{"id":"hero","url":"https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Elegant brown leather shoes and printed shirt displayed on a wooden table in a stylish clothing store."},{"id":"product1","url":"https://images.pexels.com/photos/5827871/pexels-photo-5827871.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A person in a black leather jacket, holding a laptop, stands among fallen autumn leaves."},{"id":"product2","url":"https://images.pexels.com/photos/9775728/pexels-photo-9775728.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Two male models in pastel clothing posing against a white background."},{"id":"product3","url":"https://images.pexels.com/photos/27498889/pexels-photo-27498889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Groom in blue suit holding a white rose boutonniere, outdoors, summer."}];
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       borderRadius="rounded"
     >
       <div id="nav" data-section="nav">
-        <NavbarLayoutFloatingOverlay 
+        <NavbarLayoutFloatingOverlay
           navItems={[
             { name: "Home", id: "home" },
             { name: "Shop", id: "shop" },
